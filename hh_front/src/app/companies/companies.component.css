@@ -1,0 +1,25 @@
+.block-left {
+  position: fixed;
+  margin-top: 100px;
+  margin-left: 0;
+  font-size: 1rem;
+  width: 250px;
+  height: 700px;
+}
+.title {
+  background-color: lavender;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-style: solid;
+  border-width: 3px;
+  color: black;
+  font-size: 1rem;
+  text-align: left;
+}
+.description {
+  color: whitesmoke;
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+}

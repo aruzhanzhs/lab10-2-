@@ -1,0 +1,25 @@
+<div class="block-right">
+  <div class="form" *ngIf="authorized">
+    <app-companies></app-companies>
+    <div class="submit">
+      <button (click)="logout()" >Log out</button>
+    </div>
+  </div>
+
+  <div class="form" *ngIf="!authorized">
+    <form>
+      <div class="mail">
+        <label>Enter e-mail or username:</label>
+        <input type="text" [(ngModel)]="mail">
+      </div>
+      <div class="password1">
+        <label>Enter password:</label>
+        <input type="password" [(ngModel)]="password">
+      </div>
+      <div class="submit">
+        <button (click)="login()" >Login</button>
+      </div>
+    </form>
+  </div>
+
+</div>
